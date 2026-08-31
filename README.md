@@ -1,325 +1,154 @@
 <div align="center">
 
-# ✦ HARSHITHA S.
+# Harshitha S.
 
-### `Computer Science & Design` · `Software Engineer` · `AI/ML` · `UI/UX Designer`
+### Building at the intersection of engineering, intelligence & design.
 
-**I design interfaces. I build systems. I experiment with AI.**
+I'm a final-year **Computer Science & Design** student. I design interfaces, build systems, and use AI where it earns its place — not as a headline, but as one tool among several for solving real problems.
 
-<br>
+<br/>
 
-<a href="https://github.com/HarshithaBsrinivas">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/HarshithaBsrinivas/harshithabsrinivas.github.io">
-<img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HarshithaBsrinivas)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://harshithabsrinivas.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://github.com/HarshithaBsrinivas/harshithabsrinivas.github.io/blob/main/Harshitha_S_Resume.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#) <!-- TODO: replace # with your LinkedIn URL -->
 
 </div>
 
----
+<br/>
 
-## ◌ WHO AM I?
+## What I'm about
 
-I'm a **Computer Science & Design student** who likes working where **technology meets human experience**.
+Four things sit close together in how I work — software, AI, design, and the real-world problem underneath all of it:
 
-My interests sit across four worlds:
-
-```text
-             ┌───────────────────┐
-             │    SOFTWARE       │
-             │ Engineering · Web │
-             └─────────┬─────────┘
-                       │
-                       │
-       ┌───────────────┼───────────────┐
-       │               │               │
-       ▼               ▼               ▼
-    AI / ML         UI / UX         PRODUCT
-   Intelligence     Experience      Thinking
-       │               │               │
-       └───────────────┼───────────────┘
-                       │
-                       ▼
-                 REAL-WORLD IMPACT
+```
+        SOFTWARE ENGINEERING
+                 │
+     ┌───────────┼───────────┐
+     │           │           │
+   AI / ML    UI / UX    RESEARCH
+     │           │           │
+     └───────────┼───────────┘
+                 ▼
+          REAL-WORLD IMPACT
 ```
 
-I enjoy taking an idea from **“what if?” → prototype → product**.
+I like taking an idea from *"what if"* to a working prototype — and I care as much about whether it makes sense to a user as whether it runs.
 
----
+<br/>
 
-# ◈ MY CREATIVE + TECH STACK
+## Currently building / exploring
 
-### 💻 SOFTWARE ENGINEERING
+- Growing **EcoWardOS** — a civic-tech + AI platform, currently past Phase 1 (foundation) toward authentication and computer-vision tree health inference
+- Deepening **Java + DSA**, full-stack engineering, and cloud-native fundamentals
+- Exploring **Generative AI / LLM applications** alongside more traditional ML
+- Preparing a research-oriented capstone in decision-support systems
 
-`Java` · `Python` · `C` · `JavaScript` · `TypeScript`
+<br/>
 
-`React` · `Node.js` · `Express` · `Spring Boot`
-
-`REST APIs` · `Git` · `GitHub` · `Docker`
-
----
-
-### 🧠 AI / MACHINE LEARNING
-
-`Scikit-learn` · `Pandas` · `NumPy`
-
-`Machine Learning` · `Computer Vision`
-
-`Generative AI` · `LLM Applications`
-
-`Data Analysis` · `Predictive Systems`
-
----
-
-### 🎨 UI / UX DESIGN
-
-This is where my **Computer Science + Design** side comes alive.
-
-`Figma` · `Wireframing` · `Prototyping`
-
-`User Flows` · `Information Architecture`
-
-`Interaction Design` · `Visual Design`
-
-`Design Systems` · `Responsive Design`
-
-`Accessibility` · `Micro-interactions`
-
-`UX Research` · `Usability Thinking`
-
-### My design process:
-
-```text
-RESEARCH
-   ↓
-UNDERSTAND
-   ↓
-DEFINE
-   ↓
-IDEATE
-   ↓
-WIREFRAME
-   ↓
-PROTOTYPE
-   ↓
-DESIGN
-   ↓
-BUILD
-   ↓
-TEST
-   ↓
-ITERATE
-```
-
-**I don't design screens just to make them pretty.
-I design experiences that make sense.**
-
----
-
-# ◈ THINGS I'VE BUILT
+## Featured Projects
 
 ### 🌱 EcoWardOS
+**AI-powered urban environmental intelligence & ward management platform**
 
-**AI × CivicTech × Geospatial Intelligence**
+Municipal authorities often have no real-time visibility into declining tree health, and citizen complaints arrive too late to act on. EcoWardOS turns geo-tagged citizen photos of urban trees into an explainable, prioritized action queue for city authorities — closing the loop from observation to intervention to recovery verification.
 
-An open-source urban environmental intelligence platform that transforms citizen observations of urban trees into **explainable, prioritized municipal actions**.
+`React 18` `TypeScript` `Spring Boot 3 (Java 21)` `FastAPI` `PostgreSQL + PostGIS` `Docker`
 
-`React` `TypeScript` `Spring Boot` `FastAPI` `PostgreSQL` `PostGIS` `Docker`
-
-→ [Explore the project](https://github.com/HarshithaBsrinivas/EcoWardOS)
-
----
-
-### 🫀 Heart Disease Prediction
-
-**Machine Learning × Healthcare × Analytics**
-
-A cardiovascular risk assessment application using **Random Forest**, with interactive predictions, batch processing, analytics, insights and PDF reporting.
-
-`Python` `Scikit-learn` `Streamlit` `Pandas` `NumPy`
-
-→ [Explore the project](https://github.com/HarshithaBsrinivas/heartdisease_prediction)
+💻 [Code](https://github.com/HarshithaBsrinivas/EcoWardOS)
 
 ---
 
 ### 🏛️ Hampi Chronicles
+**Immersive digital heritage platform for exploring the Vijayanagara Empire**
 
-**Digital Heritage × Storytelling × Interaction**
+Most heritage sites online are text-heavy tourism pages disconnected from place and story. Hampi Chronicles reframes Hampi as an editorial, narrative-driven digital experience — interactive monument exploration, historical storytelling, an AR-oriented layer, and a journey planner — built as an installable PWA with a heritage-inspired typographic identity (Cinzel, Crimson Pro, Cormorant Garamond).
 
-An immersive digital heritage experience combining **exploration, historical storytelling, AR-oriented interactions, journey planning and PWA technology**.
+`HTML5` `CSS3` `JavaScript` `PWA` `GitHub Pages`
 
-`HTML` `CSS` `JavaScript` `PWA`
-
-→ [Explore the project](https://github.com/HarshithaBsrinivas/Hampi-chronicles)
-
----
-
-### 📂 File Organizer
-
-**Python × Automation**
-
-A lightweight automation utility that turns messy directories into organized workspaces by categorizing files automatically.
-
-`Python` `File System Automation`
-
-→ [Explore the project](https://github.com/HarshithaBsrinivas/file-organisation)
+🌐 [Live](https://harshithabsrinivas.github.io/Hampi-chronicles/) · 💻 [Code](https://github.com/HarshithaBsrinivas/Hampi-chronicles)
 
 ---
 
-# ◈ BEYOND CODE
+### 🫀 Cardio AI — Heart Disease Prediction
+**ML-based cardiovascular risk assessment tool**
 
-I’m interested in **building the whole experience**, not just the implementation.
+An interactive Streamlit application that runs a Random Forest classifier over patient health parameters — age, blood pressure, cholesterol, max heart rate, blood sugar, chest pain type — to return a risk classification with probability, visual analytics, and a downloadable PDF report. Built and documented as an educational/research prototype, with an explicit medical disclaimer rather than an overstated diagnostic claim.
 
-```text
-             IDEA
-               │
-               ▼
-        ┌──────────────┐
-        │  UX RESEARCH │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │   UI DESIGN  │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │   FRONTEND   │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │    BACKEND   │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │   AI / DATA  │
-        └──────┬───────┘
-               ▼
-        ┌──────────────┐
-        │   REAL USER  │
-        └──────────────┘
-```
+`Python` `Scikit-learn` `Random Forest` `Streamlit` `Pandas` `ReportLab`
 
-That intersection is where I feel most at home:
-
-### **Engineering × Intelligence × Experience**
+💻 [Code](https://github.com/HarshithaBsrinivas/heartdisease_prediction)
 
 ---
 
-# ◈ COMMUNITY
+### 🧬 OmniOnco
+**AI / multi-omics cancer research platform**
 
-Currently exploring communities where I can learn, contribute, and build with others.
+Focused on integrating multi-omics data with AI-assisted analysis for breast and skin cancer research.
 
-💜 **SheFi Scholar — Season 16**
+`Repository link pending` — *not yet public / not linked from this account*
 
-💻 **Rewriting the Code**
+<br/>
 
+## Tech Toolkit
 
----
+**Languages** — `Java` `Python` `C` `JavaScript` `TypeScript`
 
-# ◈ ACHIEVEMENTS
+**Frontend** — `React` `HTML` `CSS`
 
-🏅 **NASA Space Apps Challenge — Global Nominee**
+**Backend** — `Node.js` `Express` `Spring Boot` `Firebase` `FastAPI`
 
-🏆 **NASA Space Apps Challenge — Best Use of Data Award**
+**Data & AI/ML** — `Scikit-learn` `Pandas` `NumPy` `SQL / MySQL` `PostgreSQL + PostGIS` `Machine Learning`
 
-🏆 **Smart India Hackathon — Institute-Level Finalist / Semifinalist**
+**Design** — `Figma` `UI/UX` `Wireframing & Prototyping`
 
+**Tools** — `Git` `GitHub` `Docker`
 
----
+<br/>
 
-# ◈ CURRENTLY IN MY LAB
+## Research Interests
 
-```text
-[██████████████████░░] Java + DSA
+Currently reading and thinking around, more than publishing in (yet):
 
-[████████████████░░░░] AI / ML
+- Explainable AI & decision-support systems
+- AI for public infrastructure and civic technology
+- Equity-aware resource allocation
+- Healthcare AI
+- Human-centered AI
 
-[███████████████░░░░░] Generative AI
+<br/>
 
-[████████████████░░░░] UI / UX
+## Achievements & Community
 
-[██████████████░░░░░░] Cloud Native
+- 🏅 **NASA Space Apps Challenge 2025** — Global Nominee
+- 🏆 **NASA Space Apps Challenge** — Best Use of Data Award
+- 🏆 **Smart India Hackathon 2025** — Institute-Level Finalist
+- 🎓 **Google Student Ambassador 2026**
+- 💻 **GirlScript Summer of Code 2026**
+- 💜 **SheFi Scholar** — Season 16
+- 🌐 **Rewriting the Code** — Member
 
-[█████████████░░░░░░░] Open Source
-```
+<br/>
 
-Currently exploring:
-
-→ Java + Data Structures
-→ Full-stack engineering
-→ AI / Generative AI
-→ Computer Vision
-→ Design Systems
-→ Product & UX thinking
-→ Cloud-native development
-→ Open-source contribution
-
----
-
-# ◈ HOW I THINK
-
-> **Don't start with the technology. Start with the problem.**
-
-```text
-          What is the problem?
-                  ↓
-          Who experiences it?
-                  ↓
-          What do they need?
-                  ↓
-        Can technology help?
-                  ↓
-          Design the solution
-                  ↓
-             Build it
-                  ↓
-             Test it
-                  ↓
-            Make it better
-```
-
-I'm interested in creating products that are not only **technically interesting**, but also **useful, intuitive, accessible and meaningful**.
-
----
-
-# ◈ CURRENT MISSION
-
-```text
-╭──────────────────────────────────────────╮
-│                                          │
-│   BUILD BETTER SOFTWARE                  │
-│                                          │
-│   DESIGN BETTER EXPERIENCES              │
-│                                          │
-│   EXPERIMENT WITH AI                     │
-│                                          │
-│   CONTRIBUTE TO OPEN SOURCE              │
-│                                          │
-│   KEEP LEARNING                          │
-│                                          │
-╰──────────────────────────────────────────╯
-```
-
-### `BUILD → DESIGN → LEARN → EXPERIMENT → SHARE`
-
----
+## GitHub Activity
 
 <div align="center">
 
-### ✦ Thanks for stopping by.
+![Harshitha's GitHub stats](https://github-readme-stats.vercel.app/api?username=HarshithaBsrinivas&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=HarshithaBsrinivas&layout=compact&theme=tokyonight&hide_border=true)
 
-**If you're building something interesting, let's build together.**
+</div>
 
-<br>
+<br/>
 
-`CODE` · `CREATE` · `CURIOUS`
+## Let's connect
 
-<br>
+I'm looking for **internship and new-grad opportunities in Software Engineering, AI/ML, and product-minded frontend roles.** If you're building something interesting — or just want to talk shop about design systems, civic tech, or explainable AI — reach out.
 
-![Profile Views](https://komarev.com/ghpvc/?username=HarshithaBsrinivas\&style=flat-square)
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/HarshithaBsrinivas)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://harshithabsrinivas.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](#) <!-- TODO -->
 
 </div>
