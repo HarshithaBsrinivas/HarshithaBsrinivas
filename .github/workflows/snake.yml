@@ -1,0 +1,29 @@
+
+name: Generate Pink Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: HarshithaBsrinivas
+          outputs: |
+            dist/github-contribution-grid-snake.svg?color_snake=%23e879a5&color_dots=%23fff0f5,%23fbcfe8,%23f9a8d4,%23ec4899,%23be185d
+
+      - name: Publish snake
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
