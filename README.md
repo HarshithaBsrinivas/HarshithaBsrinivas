@@ -1,6 +1,6 @@
 
 <div align="center">
-<img src="https://github.com/HarshithaBsrinivas.png" width="120"/>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fff0f5,45:fce4ec,100:f8bbd0&height=210&section=header&text=THE%20LITTLE%20CORNER%20OF&fontSize=27&fontColor=ad607f&fontAlignY=36&desc=2027%20EDITION%20%E2%99%A1&descSize=16&descColor=ad607f&descAlignY=56"/>
 
 <br/>
