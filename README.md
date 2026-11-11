@@ -5,17 +5,21 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=27&duration=3500&pause=1000&color=C47798&center=true&vCenter=true&width=650&lines=hi%2C+i'm+Harshitha!+%E2%99%A1;developer+in+progress%2C+dreamer+by+default." alt="Typing introduction"/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=27&duration=3500&pause=1000&color=C47798&center=true&vCenter=true&width=650&lines=hi%2C+i'm+Harshitha!+%E2%99%A1;developer+in+progress%2C+dreamer+by+default.;making+little+ideas+into+real+things." alt="Typing introduction"/>
 
 <br/>
 
-✧ Computer Science & Design student
+<em>✧ computer science & design student · class of 2027</em>
+
+<br/><br/>
 
 ✧ Making ideas bloom into software
 
-✧ Learning Java, AI & full-stack development
+✧ Exploring Java, AI & full-stack development
 
-<br/>
+✧ Somewhere between code, creativity and curiosity
+
+<br/><br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=500" width="65%"/>
 
@@ -50,11 +54,17 @@ Make things meaningful.
 
 <br/>
 
+<em>not just learning how to write code, but discovering what it can create.</em>
+
+<br/><br/>
+
 ---
 
 ### ♡ my little project garden
 
-*little ideas, growing into something meaningful*
+<em>little ideas, growing into something meaningful</em>
+
+<br/>
 
 <table>
 <tr>
@@ -66,6 +76,8 @@ Make things meaningful.
 
 Environmental intelligence
 
+Microplastic-induced soil vulnerability research.
+
 <a href="https://github.com/Archanagowda05/agro-plastic">explore project ↗</a>
 
 </td>
@@ -75,7 +87,9 @@ Environmental intelligence
 
 ### 🪴 EcoWardOS
 
-Urban environmental tech
+Urban environmental intelligence
+
+AI-powered urban environmental monitoring and ward management.
 
 <a href="https://github.com/HarshithaBsrinivas/EcoWardOS">explore project ↗</a>
 
@@ -88,7 +102,9 @@ Urban environmental tech
 
 ### 🧬 OmniOnco
 
-Computational research
+Computational cancer research
+
+Exploring cancer datasets and AI-assisted research workflows.
 
 <a href="https://github.com/Archanagowda05/cancer_research">explore project ↗</a>
 
@@ -97,9 +113,11 @@ Computational research
 
 <img src="https://img.icons8.com/color/96/sparkling.png" width="55" alt="Sparkles"/>
 
-### ✨ What's next?
+### ✨ more little experiments
 
-More things to create
+More ideas, experiments and things I'm learning.
+
+<a href="https://harshithabsrinivas.github.io/">visit my project world ↗</a>
 
 </td>
 </tr>
@@ -107,9 +125,59 @@ More things to create
 
 <br/>
 
+<em>every project starts with a little curiosity ♡</em>
+
+<br/><br/>
+
+---
+
+### ♡ little milestones along the way
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+🌎
+
+**NASA Space Apps**
+
+Global Nominee · 2025
+
+</td>
+<td align="center" width="33%">
+
+🏆
+
+**Smart India Hackathon**
+
+Institute-Level Finalist · 2025
+
+</td>
+<td align="center" width="33%">
+
+📊
+
+**Best Use of Data**
+
+Internal recognition · 2025
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<em>small steps, meaningful milestones, and a lot more to learn.</em>
+
+<br/><br/>
+
 ---
 
 ### ♡ things in my toolkit
+
+<em>tools I use, skills I'm growing, and technologies I'm exploring</em>
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,ts,react,spring,tailwind,git,github,vscode,figma&perline=7" alt="Technology icons"/>
 
@@ -118,6 +186,10 @@ More things to create
 ---
 
 ### ♡ little coding garden
+
+<em>a tiny snapshot of my GitHub journey</em>
+
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=HarshithaBsrinivas&show_icons=true&hide_border=true&bg_color=fff5f8&title_color=c47798&icon_color=d98eaf&text_color=806879" height="165" alt="GitHub statistics"/>
 
@@ -129,11 +201,41 @@ More things to create
 
 <br/><br/>
 
+---
+
 ### ♡ my contribution garden
 
-<img src="https://raw.githubusercontent.com/HarshithaBsrinivas/HarshithaBsrinivas/output/github-contribution-grid-snake.svg" width="100%" alt="Animated GitHub contribution snake"/>
+<em>every little square tells a story of showing up and learning.</em>
 
 <br/>
+
+<img src="https://raw.githubusercontent.com/HarshithaBsrinivas/HarshithaBsrinivas/output/github-contribution-grid-snake.svg" width="100%" alt="Animated pink GitHub contribution snake"/>
+
+<br/><br/>
+
+---
+
+### ♡ find me in little corners of the internet
+
+<br/>
+
+<a href="https://harshithabsrinivas.github.io/">
+<img src="https://img.shields.io/badge/MY%20PORTFOLIO-f8dce8?style=for-the-badge&logo=googlechrome&logoColor=ad607f&labelColor=fff5f8" alt="Portfolio"/>
+</a>
+
+<a href="https://www.linkedin.com/in/harshitha-s-srinivas/">
+<img src="https://img.shields.io/badge/LINKEDIN-f8dce8?style=for-the-badge&logo=linkedin&logoColor=ad607f&labelColor=fff5f8" alt="LinkedIn"/>
+</a>
+
+<a href="https://github.com/HarshithaBsrinivas">
+<img src="https://img.shields.io/badge/GITHUB-f8dce8?style=for-the-badge&logo=github&logoColor=ad607f&labelColor=fff5f8" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+<em>come explore, say hello, or let's build something together ♡</em>
+
+<br/><br/>
 
 ---
 
@@ -143,11 +245,13 @@ More things to create
 
 🧁 Full-stack development
 
-🎀 Building meaningful projects
+🎀 AI & meaningful software
+
+✧ Learning something new every day
 
 <br/><br/>
 
-<em>made with curiosity & a little magic ♡</em>
+<em>made with curiosity, creativity & a little magic ♡</em>
 
 <br/>
 
