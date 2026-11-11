@@ -1,93 +1,135 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fff0f5,50:fce4ec,100:f8bbd0&height=190&section=header&text=THE%20LITTLE%20CORNER&fontSize=30&fontColor=ad607f&fontAlignY=40&desc=✧%202027%20EDITION%20✧&descSize=15&descColor=ad607f&descAlignY=62"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:fff0f5,50:fce4ec,100:f8bbd0&height=200&section=header&text=THE%20LITTLE%20CORNER%20OF&fontSize=29&fontColor=ad607f&fontAlignY=38&desc=2027%20EDITION%20%E2%99%A1&descSize=17&descColor=ad607f&descAlignY=59"/>
 
 <br/>
 
 # hi, i'm Harshitha! ♡
 
-## developer in progress, dreamer by default.
+### developer in progress, dreamer by default.
 
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=19&duration=3500&pause=1000&color=C47798&center=true&vCenter=true&width=550&lines=making+little+ideas+into+real+things.;learning%2C+building+and+growing.;somewhere+between+code+and+creativity." alt="A little introduction"/>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=21&duration=2800&pause=800&color=C47798&center=true&vCenter=true&width=650&lines=making+ideas+bloom+into+software+%E2%9C%BF;learning+Java%2C+AI+%26+full-stack+development;building+little+things+with+big+curiosity;welcome+to+my+little+corner+%E2%99%A1" alt="Animated introduction"/>
 
-<br/>
+<br/><br/>
 
 ✧ Computer Science & Design student · Class of 2027
 
 ✧ Making ideas bloom into software
 
-✧ Learning Java, AI & full-stack development
+✧ Exploring Java, AI & full-stack development
 
-✧ Creating things with curiosity and creativity
+✧ Somewhere between code, creativity and curiosity
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=400" width="65%"/>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=350" width="55%"/>
+## ♡ a little about me
+
+<em>an engineer in progress, collecting ideas and turning them into things.</em>
+
+🌷 Learning Java and problem solving
+
+🧁 Exploring AI and full-stack development
+
+🎀 Interested in meaningful software and creative interfaces
+
+✧ Always curious about what I can build next
 
 <br/>
+
+---
 
 ## ♡ my little project garden
 
-<em>little ideas, growing into something meaningful.</em>
-
-<br/><br/>
-
-<a href="https://github.com/Archanagowda05/agro-plastic">
-<img src="https://img.icons8.com/color/96/flower.png" width="48" alt="Flower"/>
-</a>
-
-### 🌱 Agro-Plasti-Guard
-
-Environmental intelligence
-
-Microplastic-induced soil vulnerability research.
-
-<a href="https://github.com/Archanagowda05/agro-plastic">explore project ↗</a>
-
-<br/><br/>
-
-<a href="https://github.com/HarshithaBsrinivas/EcoWardOS">
-<img src="https://img.icons8.com/color/96/potted-plant.png" width="48" alt="Plant"/>
-</a>
-
-### 🪴 EcoWardOS
-
-Urban environmental tech
-
-AI-powered urban environmental intelligence and ward management.
-
-<a href="https://github.com/HarshithaBsrinivas/EcoWardOS">explore project ↗</a>
-
-<br/><br/>
-
-<a href="https://github.com/Archanagowda05/cancer_research">
-<img src="https://img.icons8.com/color/96/dna-helix.png" width="48" alt="DNA"/>
-</a>
-
-### 🧬 OmniOnco
-
-Computational research
-
-Exploring cancer datasets and AI-assisted research workflows.
-
-<a href="https://github.com/Archanagowda05/cancer_research">explore project ↗</a>
-
-<br/><br/>
-
-<img src="https://img.icons8.com/color/96/sparkling.png" width="48" alt="Sparkles"/>
-
-### ✨ What's next?
-
-More things to create, ideas to explore and little experiments to grow.
-
-<a href="https://harshithabsrinivas.github.io/">visit my little project world ↗</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=350" width="55%"/>
+<em>eight little worlds, each growing from a different idea.</em>
 
 <br/>
+
+### 🌱 01 — Agro-Plasti-Guard
+
+**Environmental intelligence**
+
+A microplastic-induced soil vulnerability research platform exploring environmental data and soil health.
+
+<a href="https://github.com/Archanagowda05/agro-plastic">explore the project ↗</a>
+
+<br/>
+
+### 🪴 02 — EcoWardOS
+
+**AI-powered urban environmental intelligence**
+
+A software platform for urban environmental monitoring, tree intelligence, geospatial mapping and ward management.
+
+<a href="https://github.com/HarshithaBsrinivas/EcoWardOS">explore the project ↗</a>
+
+<br/>
+
+### 🧬 03 — OmniOnco
+
+**Computational cancer research**
+
+An AI-assisted research workflow for exploring cancer datasets, genomic patterns and computational analysis.
+
+<a href="https://github.com/Archanagowda05/cancer_research">explore the project ↗</a>
+
+<br/>
+
+### ❤️ 04 — Cardio AI Dashboard
+
+**Machine learning · Healthcare**
+
+A heart disease risk prediction dashboard using machine learning.
+
+<a href="https://github.com/HarshithaBsrinivas/heartdisease_prediction">explore the project ↗</a>
+
+<br/>
+
+### 🏛️ 05 — Hampi Chronicles
+
+**Interactive heritage storytelling**
+
+A digital experience inspired by the history, stories and heritage of Hampi.
+
+<a href="https://github.com/HarshithaBsrinivas/Hampi-chronicles">explore the project ↗</a>
+
+<br/>
+
+### 📁 06 — File Organizer
+
+**Automation · Python**
+
+A utility project for organizing files into structured folders.
+
+<a href="https://github.com/HarshithaBsrinivas/file-organisation">explore the project ↗</a>
+
+<br/>
+
+### ♻️ 07 — ProofCycle
+
+**Sustainability · E-waste**
+
+A digital chain-of-custody concept for improving traceability in e-waste management.
+
+<br/>
+
+### 🔐 08 — LLM Prompt-Injection Benchmark
+
+**AI security · Research**
+
+Exploring prompt-injection vulnerabilities and evaluating the robustness of LLM-based systems.
+
+<br/><br/>
+
+<em>every project begins with one little question: what if? ♡</em>
+
+<br/>
+
+---
 
 ## ♡ little milestones along the way
 
@@ -95,29 +137,27 @@ More things to create, ideas to explore and little experiments to grow.
 
 🏆 Smart India Hackathon Institute-Level Finalist · 2025
 
-📊 Best Use of Data · 2025
+📊 Best Use of Data · Internal Recognition · 2025
 
 <br/>
 
-<em>small steps, meaningful milestones, and a lot more to learn.</em>
+---
+
+## ♡ things in my toolkit
+
+<em>tools I'm learning, using and growing with.</em>
+
+<img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,ts,react,spring,tailwind,git,github,vscode,figma&perline=7" alt="Technology icons"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=350" width="55%"/>
-
-<br/>
-
-## ♡ things i'm exploring
-
-<img src="https://skillicons.dev/icons?i=java,python,c,html,css,js,ts,react,spring,tailwind,git,github,vscode,figma&perline=7" alt="My technology toolkit"/>
-
-<br/><br/>
+---
 
 ## ♡ little coding garden
 
-<em>every little square tells a story of showing up and learning.</em>
+<em>every contribution is a little reminder to keep growing.</em>
 
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-stats.vercel.app/api?username=HarshithaBsrinivas&show_icons=true&hide_border=true&bg_color=fff5f8&title_color=c47798&icon_color=d98eaf&text_color=806879" width="85%" alt="GitHub statistics"/>
 
@@ -127,21 +167,19 @@ More things to create, ideas to explore and little experiments to grow.
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=HarshithaBsrinivas&hide_border=true&background=fff5f8&ring=d98eaf&fire=c47798&currStreakLabel=c47798&sideLabels=806879&dates=806879" width="85%" alt="GitHub contribution streak"/>
+<img src="https://streak-stats.demolab.com?user=HarshithaBsrinivas&hide_border=true&background=fff5f8&ring=d98eaf&fire=c47798&currStreakLabel=c47798&sideLabels=806879&dates=806879" width="85%" alt="Contribution streak"/>
 
 <br/><br/>
 
-### ✧ my contribution snake ♡
+### ✧ my little contribution animation ♡
 
-<img src="https://raw.githubusercontent.com/HarshithaBsrinivas/HarshithaBsrinivas/output/github-contribution-grid-snake.svg" width="100%" alt="Pink animated contribution snake"/>
+<img src="https://raw.githubusercontent.com/HarshithaBsrinivas/HarshithaBsrinivas/output/github-contribution-grid-snake.svg" width="100%" alt="Animated pink contribution snake"/>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=f8dce8&height=2&width=350" width="55%"/>
+---
 
-<br/>
-
-## ♡ find me around the internet
+## ♡ find me in little corners of the internet
 
 <a href="https://harshithabsrinivas.github.io/">
 <img src="https://img.shields.io/badge/portfolio-f8dce8?style=for-the-badge&logo=googlechrome&logoColor=ad607f&labelColor=fff5f8"/>
@@ -171,8 +209,8 @@ More things to create, ideas to explore and little experiments to grow.
 
 <em>made with curiosity, creativity & a little magic ♡</em>
 
-<br/><br/>
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8bbd0,50:fce4ec,100:fff0f5&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8bbd0,50:fce4ec,100:fff0f5&height=130&section=footer"/>
 
 </div>
