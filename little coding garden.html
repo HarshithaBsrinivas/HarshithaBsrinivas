@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>little coding garden</title>
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFF8EC;
+    font-family: "Courier New", monospace;
+    color: #B5476F;
+  }
+  canvas {
+    width: min(92vw, 760px);
+    height: auto;
+    border-radius: 14px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  p { font-size: 14px; margin-top: 14px; }
+</style>
+</head>
+<body>
+
+<canvas id="c" width="760" height="200"></canvas>
+<p>tap / click / space to hop ♡ collect the gems and berries, dodge the rocks</p>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+ctx.imageSmoothingEnabled = false;
+
+const GROUND = 168;
+const BLOB_SIZE = 44;
+
+let blob, vy, onGround, items, rocks, score, lives, speed, over, frames, nextSpawn;
+
+function reset() {
+  blob = { x: 120, y: GROUND - BLOB_SIZE };
+  vy = 0;
+  onGround = true;
+  items = [];
+  rocks = [];
+  score = 0;
+  lives = 3;
+  speed = 3;
+  over = false;
+  frames = 0;
+  nextSpawn = 60;
+}
+
+function jump() {
+  if (over) { reset(); return; }
+  if (onGround) {
+    vy = -11.5;
+    onGround = false;
+  }
+}
+
+canvas.addEventListener('mousedown', jump);
+canvas.addEventListener('touchstart', (e) => { e.preventDefault(); jump(); }, { passive: false });
+window.addEventListener('keydown', (e) => {
+  if (e.code === 'Space') { e.preventDefault(); jump(); }
+});
+
+function spawn() {
+  if (Math.random() < 0.6) {
+    const inAir = Math.random() < 0.5;
+    items.push({
+      x: 800,
+      y: inAir ? GROUND - 90 - Math.random() * 40 : GROUND - 16,
+      kind: Math.random() < 0.5 ? 'gem' : 'berry',
+      taken: false
+    });
+  } else {
+    rocks.push({ x: 800, y: GROUND - 22, w: 22, h: 22 });
+  }
+}
+
+function overlaps(a, b) {
+  return a.x < b.x + b.w && a.x + a.w > b.x && a.y < b.y + b.h && a.y + a.h > b.y;
+}
+
+function update() {
+  if (over) return;
+  frames++;
+
+  vy += 0.6;
+  blob.y += vy;
+  if (blob.y >= GROUND - BLOB_SIZE) {
+    blob.y = GROUND - BLOB_SIZE;
+    vy = 0;
+    onGround = true;
+  }
+
+  speed = 3 + Math.min(score / 40, 5);
+
+  if (--nextSpawn <= 0) {
+    spawn();
+    nextSpawn = 50 + Math.random() * 50;
+  }
+
+  items.forEach(i => i.x -= speed);
+  rocks.forEach(r => r.x -= speed);
+  items = items.filter(i => i.x > -30 && !i.taken);
+  rocks = rocks.filter(r => r.x > -30);
+
+  const hitbox = { x: blob.x + 4, y: blob.y + 4, w: BLOB_SIZE - 8, h: BLOB_SIZE - 8 };
+
+  items.forEach(i => {
+    if (!i.taken && overlaps(hitbox, { x: i.x, y: i.y, w: 16, h: 16 })) {
+      i.taken = true;
+      score += i.kind === 'gem' ? 10 : 5;
+    }
+  });
+
+  rocks = rocks.filter(r => {
+    if (overlaps(hitbox, r)) {
+      lives--;
+      if (lives <= 0) over = true;
+      return false;
+    }
+    return true;
+  });
+}
+
+function drawBlob() {
+  const bx = blob.x, by = blob.y;
+  const bob = onGround && !over ? Math.sin(frames / 10) * 2 : 0;
+
+  // outline
+  ctx.fillStyle = '#2B1F2E';
+  ctx.fillRect(bx, by + bob, BLOB_SIZE, BLOB_SIZE);
+  ctx.fillRect(bx + 10, by - 6 + bob, BLOB_SIZE - 20, 8);
+
+  // body
+  ctx.fillStyle = '#FF2E6E';
+  ctx.fillRect(bx + 4, by + 4 + bob, BLOB_SIZE - 8, BLOB_SIZE - 8);
+  ctx.fillRect(bx + 14, by - 2 + bob, BLOB_SIZE - 28, 6);
+
+  // blue highlights
+  ctx.fillStyle = '#7FD6FF';
+  ctx.fillRect(bx + 8, by + 6 + bob, 8, 6);
+  ctx.fillRect(bx + 10, by + 22 + bob, 6, 6);
+
+  // eyes (closed when game over)
+  ctx.fillStyle = '#2B1F2E';
+  if (over) {
+    ctx.fillRect(bx + 14, by + 20 + bob, 8, 3);
+    ctx.fillRect(bx + 26, by + 20 + bob, 8, 3);
+  } else {
+    ctx.fillRect(bx + 14, by + 16 + bob, 6, 10);
+    ctx.fillRect(bx + 26, by + 16 + bob, 6, 10);
+  }
+}
+
+function drawItem(i) {
+  if (i.kind === 'gem') {
+    ctx.fillStyle = '#4FC3F7';
+    ctx.fillRect(i.x, i.y + 2, 14, 12);
+    ctx.fillStyle = '#9EE3FF';
+    ctx.fillRect(i.x + 2, i.y + 2, 4, 4);
+  } else {
+    ctx.fillStyle = '#FF8FB8';
+    ctx.fillRect(i.x, i.y, 16, 16);
+    ctx.fillStyle = '#FFD166';
+    ctx.fillRect(i.x + 6, i.y + 6, 4, 4);
+  }
+}
+
+function draw() {
+  ctx.fillStyle = '#5E5550';
+  ctx.fillRect(0, 0, 760, 200);
+  ctx.fillStyle = '#4A423E';
+  ctx.fillRect(0, GROUND, 760, 32);
+
+  // HUD
+  ctx.font = 'bold 30px "Courier New", monospace';
+  ctx.fillStyle = '#FFFFFF';
+  ctx.fillText('× ' + (1 + Math.floor(score / 50)).toFixed(1), 30, 52);
+  ctx.fillStyle = '#FFE14D';
+  ctx.font = 'bold 34px "Courier New", monospace';
+  ctx.fillText(String(score).padStart(4, '0'), 300, 52);
+  ctx.font = 'bold 30px "Courier New", monospace';
+  ctx.fillStyle = '#FF2E6E';
+  ctx.fillText('♥ ' + lives, 620, 52);
+
+  items.forEach(drawItem);
+
+  ctx.fillStyle = '#2B2421';
+  rocks.forEach(r => ctx.fillRect(r.x, r.y, r.w, r.h));
+
+  drawBlob();
+
+  if (over) {
+    ctx.fillStyle = 'rgba(94, 85, 80, 0.75)';
+    ctx.fillRect(0, 0, 760, 200);
+    ctx.fillStyle = '#FFFFFF';
+    ctx.font = 'bold 28px "Courier New", monospace';
+    ctx.textAlign = 'center';
+    ctx.fillText('game over ♡', 380, 90);
+    ctx.font = '18px "Courier New", monospace';
+    ctx.fillText('tap to play again', 380, 125);
+    ctx.textAlign = 'left';
+  }
+}
+
+function loop() {
+  update();
+  draw();
+  requestAnimationFrame(loop);
+}
+
+reset();
+loop();
+</script>
+</body>
+</html>
