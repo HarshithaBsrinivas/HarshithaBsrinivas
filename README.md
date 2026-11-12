@@ -82,9 +82,13 @@
 ## 🎀 little milestones tucked in my pocket
 
 🌎 **NASA Space Apps Challenge** · Global Nominee
+
 🏆 **Smart India Hackathon 2025** · Institute-Level Semifinalist
+
 📄 **Published research** · IJSREM Special Edition, Vol. 09, NCFT 2025
+
 🧠 **AWS AI/ML Scholar** · AWS x Udacity · 2026
+
 📊 **Best Use of Data** · Internal Recognition · 2025
 
 </div>
@@ -159,20 +163,54 @@
 
 <div align="center">
 
-## 🎓 education & certifications
+## 📜 my certificate shelf
 
-**BE, Computer Science & Design** · BGS College of Engineering and Technology
-CGPA 8.67 (till 6th semester) · 2023 – 2027
+*little proofs that i kept learning* ♡
 
-PUC · RNS Composite PU College · 2023 · 76%
-SSLC · New Indian Public School · 2021 · 87%
+</div>
 
-<br>
+<table>
+<tr>
+<td width="50%" valign="top" bgcolor="#FCE4EE">
 
-🌸 AWS Cloud Practitioner & AI Fundamentals · Udemy
-🌸 IBM Data Analysis with Python
-🌸 Cyber Security Foundation · Infosys Springboard
-🌸 CCNA · Cisco
+#### ☁️ AWS Cloud Practitioner
+*& AI Fundamentals · Udemy*
+
+🎀 cloud basics, and how AI fits into them
+
+</td>
+<td width="50%" valign="top" bgcolor="#EDE4FA">
+
+#### 📊 IBM Data Analysis
+*with Python · IBM*
+
+🌸 cleaning, analysing, and visualising data
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" bgcolor="#E4F4EA">
+
+#### 🛡️ Cyber Security Foundation
+*Infosys Springboard*
+
+🌿 security basics, from passwords to threats
+
+</td>
+<td width="50%" valign="top" bgcolor="#FFF0D6">
+
+#### 🌐 CCNA
+*Cisco*
+
+🧁 networking, routing, and how the internet talks
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+*one little certificate at a time* ✧
 
 </div>
 
@@ -207,8 +245,11 @@ SSLC · New Indian Public School · 2021 · 87%
 *little things i'd love to make someday* ✧
 
 🌷 a project that makes someone smile when they open it
+
 🧁 an interface so pretty people screenshot it
+
 🎀 a tool that makes an everyday chore feel magical
+
 🪐 a research paper that changes how someone thinks
 
 </div>
